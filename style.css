@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  margin: 20px;
+}
+#menu {
+  height: 90px;
+  padding: 0 20px;
+  background-color: #c1121f;
+}
+#logo {
+  font-size: 30px;
+  line-height: 80px;
+  color: aliceblue;
+  float: left;
+}
+nav {
+  float: right;
+  line-height: 80px;
+}
+nav a:link {
+  text-decoration: none;
+  margin-right: 25px;
+  color: aliceblue;
+}
+nav a:hover {
+  border-bottom: 2px solid aliceblue;
+}
+nav a:visited {
+  text-decoration: none;
+  margin-right: 25px;
+  color: aliceblue;
+}
+.ikon {
+  margin-right: 7px;
+  font-size: 16px;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #fdf0d5;
+  color: #003049;
+}
+#home {
+  background-image: url("img/blooddonor_facebook.jpg");
+  height: 1000px;
+  background-position: center;
+  background-size: cover;
+}
+#communication {
+  background-image: url("img/Blood-Donation-Wallpaper-1.png");
+  height: 856px;
+  background-position: center;
+  background-size: cover;
+
+  background-color: black;
+}
+
+.top-left {
+  position: absolute;
+  top: 75px;
+  left: 170px;
+  position: relative;
+  text-align: left;
+  color: #000;
+  width: 30%;
+  font-size: 25px;
+}
+#bottomtitle {
+  color: #000;
+}
+.black {
+  height: 856px;
+  background-color: #000;
+  opacity: 50%;
+}
